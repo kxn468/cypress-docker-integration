@@ -8,8 +8,4 @@ jobs:
       - name: Run cypress tests inside docker
         run: docker-compose up -d
         
-      - name: integration tests
-        uses: cypress-io/github-action@v4
-        with:
-          working-directory: ./
         
